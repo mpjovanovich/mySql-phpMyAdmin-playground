@@ -1,0 +1,8 @@
+{
+  "name": "mySQL + phpMyAdmin Playground",
+  "dockerComposeFile": "../docker-compose.yaml",
+  "service": "phpmyadmin",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [3306, 8080],
+  "postCreateCommand": "docker-compose up -d"
+}
